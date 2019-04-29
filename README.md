@@ -21,4 +21,4 @@ docker build -t php:7-fpm-gd-dev --target dev .
 [Sunnyplum](https://github.com/sunnyplum)
 
 ## License
-[MIT License](http://github.com/sunnyplum/docker-php7fpm/LICENSE)
+[MIT License](https://github.com/sunnyplum/docker-php7fpm/blob/master/LICENSE)
