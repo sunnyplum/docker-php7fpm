@@ -10,11 +10,11 @@ cd docker-php7fpm
 ```
 For production
 ```
-docker build -t php:7-fpm-gd-prod --target prod .
+docker build -t php:7-fpm-gd-prod -f prod.Dockerfile .
 ```
 For development
 ```
-docker build -t php:7-fpm-gd-dev --target dev .
+docker build -t php:7-fpm-gd-dev -f dev.Dockerfile .
 ```
 
 ## Contributor
